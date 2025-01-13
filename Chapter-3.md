@@ -1,4 +1,3 @@
-
 1. SB auto-configuration is heavily dependent on `@Conditional` feature
 2. Spring introd *`profiles`* - can register multiple beans of the same type and associate them with one or more profiles. This approach works fine for simple cases where enabling-disabling beans based on activated profiles.
    ![[Pasted image 20250110003426.png]]

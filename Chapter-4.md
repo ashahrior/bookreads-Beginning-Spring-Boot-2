@@ -1,4 +1,3 @@
-
 1. Spring Boot, by default, includes `spring-boot-starter-logging` as a transitive dependency for the `spring-boot-starter` module.
 2. By default, Spring Boot includes `SLF4J` along with `Logback` implementations.
 3. Spring Boot has a `LoggingSystem` abstraction that automatically configures logging based on the logging configuration files available in the classpath.
