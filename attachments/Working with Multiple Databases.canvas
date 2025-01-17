@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"f7ecb67e129ee551","type":"text","text":"type: **DataSrouceProperties**\nbean: **securityDataSrouceProperties**","x":-480,"y":-500,"width":380,"height":80,"color":"1"},
+		{"id":"7f1b3250a428bcef","type":"text","text":"type: **DataSource**\nbean: **securityDataSource**","x":-580,"y":-306,"width":346,"height":66,"color":"2"},
+		{"id":"6acb00b6b30d2227","type":"text","text":"type: **LocalContainerEntityManagerFactoryBean**\nbean: **securityEntityManagerFactory**","x":-600,"y":-140,"width":386,"height":100,"color":"3"},
+		{"id":"806cab596d8725d5","type":"text","text":"type: **PlatformTransactionManager**\nbean: **securityTransactionManager**","x":-600,"y":40,"width":386,"height":100,"color":"4"},
+		{"id":"ffd117d87ed94fc6","type":"text","text":"type: **DataSourceInitializer**\nbean: **securityDataSourceInitializer**","x":-160,"y":-240,"width":386,"height":100,"color":"5"}
+	],
+	"edges":[
+		{"id":"84206888f7f85d1b","fromNode":"f7ecb67e129ee551","fromSide":"bottom","toNode":"7f1b3250a428bcef","toSide":"top"},
+		{"id":"71255ea467fa7e25","fromNode":"7f1b3250a428bcef","fromSide":"bottom","toNode":"6acb00b6b30d2227","toSide":"top"},
+		{"id":"714b3c10dc291a42","fromNode":"6acb00b6b30d2227","fromSide":"bottom","toNode":"806cab596d8725d5","toSide":"top"},
+		{"id":"212eeaaee280d83b","fromNode":"7f1b3250a428bcef","fromSide":"right","toNode":"ffd117d87ed94fc6","toSide":"left"}
+	]
+}
