@@ -23,19 +23,19 @@
    1. configures `DispatcherServlet` to the URL pattern `"/"`
    2. adds `Tomcat` as the embedded servlet container which runs on port 8080
 12. SB by default serves the static resources (HTML, CSS, JS, images, etc.) from the following `CLASSPATH` locations-
-   1. `/static`
-   2. `/public`
-   3. `/resources`
-   4. `/META-INF/resources`
-   5. Possible to override the static resources locations by configuring the `spring.resources.staticLocations` property in the `application.properties`
+	   1. `/static`
+	   2. `/public`
+	   3. `/resources`
+	   4. `/META-INF/resources`
+13. Possible to override the static resources locations by configuring the `spring.resources.staticLocations` property in the `application.properties`
 	      > spring.resources.staticLocations=classpath:/assets/
 
 13. By default SB web starter uses Tomcat as the embedded servlet container and runs on port `8080`. But this can be customized inside the `application.properties` file with `server.*` prefix
 14. `ThymeleafAutoConfiguration` takes care of registering 
-   1. `TemplateResolver`, 
-   2. `ThymeleafViewResolver`, 
-   3. `SpringResourceTemplateResolver`, and 
-   4. `SpringTemplateEngine`
+	   1. `TemplateResolver`, 
+	   2. `ThymeleafViewResolver`, 
+	   3. `SpringResourceTemplateResolver`, and 
+	   4. `SpringTemplateEngine`
 15. `@Valid` - annotation to the model parameter to perform validations on the form submit
 16. Need to define the `BindingResult` parameter *immediately next to the model object.* The validation errors will be populated in `BindingResult`, which can be later inspected inside the method body. When the form is submitted with invalid data, those validation errors will be populated in `BindingResult`
 ```java
