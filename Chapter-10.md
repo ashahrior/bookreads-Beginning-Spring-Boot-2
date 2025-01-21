@@ -20,7 +20,7 @@
 9. JAR type module using an embedded servlet container
 10. WAR type module that can be deployed on any external servlet container
 11. The `spring-boot-starter-web` starter by default-
-   1. configures `DispatcherServlet` to the URL pattern "/"
+   1. configures `DispatcherServlet` to the URL pattern `"/"`
    2. adds `Tomcat` as the embedded servlet container which runs on port 8080
 12. SB by default serves the static resources (HTML, CSS, JS, images, etc.) from the following `CLASSPATH` locations-
    1. `/static`
