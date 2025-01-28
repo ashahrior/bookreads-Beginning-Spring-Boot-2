@@ -20,6 +20,7 @@
 	2. already includes the most commonly used plugins, such as `maven-jar-plugin`, `maven-surefire-plugin`, `maven-war-plugin`, `exec-maven-plugin` and `maven-resources-plugin` with sensible defaults
 7. also configures the `spring-boot-maven-plugin` which is to build fat JARs
 8. `@SpringBootApplication = @SpringBootConfiguration + @EnableAutoConfiguration + @ComponentScan + others`
+   ![[Pasted image 20250127173420.png]]
 9. `@SpringBootConfiguration = @Configuration + others`
 10. `@Configuration` - indicates that the class is a Spring configuration class
 11. `@ComponentScan` - enables component scanning for Spring beans in the package in which the current class is defined
@@ -31,4 +32,3 @@
 17. If an entry point class in a nested package, it is needed to specify the `basePackages` to scan for Spring components explicitly.
 18. `@ComponentScan` - for scanning spring components
 19. `@EntityScan` - for scanning spring data JPA entities
-20. 
